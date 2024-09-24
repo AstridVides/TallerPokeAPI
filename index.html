@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>    
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Pokémon</h1>
+    </header>
+
+ <!-- Botones para cambiar Pokémon -->
+    <div class="buttons">
+        <button onclick="changePokemon('charmander')">Charmander</button>
+        <button onclick="changePokemon('bulbasaur')">Bulbasaur</button>
+        <button onclick="changePokemon('squirtle')">Squirtle</button>
+        <button onclick="changePokemon('clefairy')">Clefairy</button>
+        <button onclick="changePokemon('wormadam')">Wormadam</button>
+    </div>
+
+    <!-- Tarjeta Pokémon -->
+    <div class="pokemon">
+        <div class="pokemon-img">
+            <img id="pokemonImage" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu">
+        </div>
+        <div class="pokemon-info">
+            <h2 id="pokemonName">Pikachu</h2>
+            <p id="pokemonDescription">Pikachu es un Pokémon de tipo eléctrico, conocido por sus habilidades para generar electricidad.</p>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>© 2024 Pokémon. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script></body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #FFCC00;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+}
+
+h1 {
+    color: #2C3E50;
+    margin-top: 10px;
+}
+
+/* Tarjeta Pokémon */
+.pokemon{
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.pokemon:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-img {
+    background-color: #FFCC00;
+    padding: 20px;
+}
+
+.pokemon-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.pokemon-info {
+    padding: 20px;
+}
+
+.pokemon-info h2 {
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.pokemon-info p {
+    color: #333;
+}
+
+/* Botones */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #C70039;
+}
+
+/* Pie de página */
+footer {
+    background-color: #FFCC00;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #2C3E50;
+}
